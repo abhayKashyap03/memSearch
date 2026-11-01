@@ -1,0 +1,18 @@
+[workspace]
+resolver = "2"
+members = [
+    "crates/vecdb",
+    "crates/lexical",
+    "crates/memory",
+    "crates/memory-mcp",
+    "crates/bench",
+]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+repository = "https://github.com/abhayKashyap03/memSearch"
+
+# No external dependencies yet. Add them here as [workspace.dependencies]
+# when you decide you need them (e.g. serde/serde_json for MCP, criterion for benches).

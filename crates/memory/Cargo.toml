@@ -1,0 +1,10 @@
+[package]
+name = "memory"
+description = "Agent memory layer: stores memories, runs hybrid (BM25 + vector) retrieval, fuses results."
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+vecdb = { path = "../vecdb" }
+lexical = { path = "../lexical" }

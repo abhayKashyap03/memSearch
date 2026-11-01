@@ -1,0 +1,15 @@
+[package]
+name = "bench"
+description = "Benchmarks: ANN recall/latency, and end-to-end agent-memory evals (LongMemEval, cost per turn)."
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[[bin]]
+name = "bench"
+path = "src/main.rs"
+
+[dependencies]
+vecdb = { path = "../vecdb" }
+lexical = { path = "../lexical" }
+memory = { path = "../memory" }

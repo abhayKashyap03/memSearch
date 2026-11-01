@@ -1,0 +1,13 @@
+[package]
+name = "memory-mcp"
+description = "MCP server exposing the memory crate to agents over stdio (JSON-RPC 2.0)."
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[[bin]]
+name = "memory-mcp"
+path = "src/main.rs"
+
+[dependencies]
+memory = { path = "../memory" }

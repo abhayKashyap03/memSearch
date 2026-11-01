@@ -1,0 +1,8 @@
+[package]
+name = "lexical"
+description = "From-scratch keyword search: tokenizer, inverted index, BM25 scoring."
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]

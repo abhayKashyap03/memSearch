@@ -1,0 +1,8 @@
+[package]
+name = "vecdb"
+description = "From-scratch vector index: exact (flat) and approximate (HNSW) search, plus on-disk storage."
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
