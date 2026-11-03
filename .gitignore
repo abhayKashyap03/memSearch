@@ -2,3 +2,5 @@
 **/*.rs.bk
 *.memsearch
 /data
+*.DS_Store
+*.vscode
